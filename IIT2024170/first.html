@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime Collection</title>
+    <link rel="stylesheet" href="first.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime Collection</title>
+    <link rel="stylesheet" href="first.css">
+    <style>
+        .search-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+        .search-container input {
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #f9faf9;
+            border-radius: 15px;
+        }
+        .search-container button {
+            padding: 8px 12px;
+            font-size: 16px;
+            background-color: #3a5e3a;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Anime World</h1>
+            <div class="search-container">
+              <input type="text" id="search" placeholder=" Search Anime... ">
+              <button onclick="searchAnime()">Search</button>
+          </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="first2.html">Anime Categories</a></li>
+                    <li><a href="first5.html">Movies</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Explore Your Favorite Anime</h2>
+            <p>Watch the latest and greatest anime series and movies in one place!</p>
+        </div>
+    </section>
+
+    <section class="anime-collection">
+        <div class="container">
+            <h2>Popular Anime Series & Movies</h2>
+            <div class="anime-list">
+                <div class="anime-item">
+                    <img src="https://imgs.search.brave.com/aSXKXcU850lhegaXZBVgnIRrRYGv3j0V7Pjz8CiwscU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvbmFydXRvLXNo/aXBwdWRlbi1yeHh5/aXlib2JrOG0wcTd1/LmpwZw" alt="Naruto"style= "height: 200px">
+                    <h3>Naruto</h3>
+                    <p>Follow Naruto Uzumaki as he dreams of becoming the Hokage of his village.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://imgs.search.brave.com/Qde2aOiXfz54_cgsmTSbru3CfJWyBBPInFf1aZjopU4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzL3NoYXJlZGlt/YWdlcy8yMDI0LzA0/L2F0dGFjay1vbi10/aXRhbi5qcGc" alt="Attack on Titan"style= "height: 200px">
+                    <h3>Attack on Titan</h3>
+                    <p>A thrilling story of humanity's struggle against the terrifying Titans.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://imgs.search.brave.com/3EscfK4CO_wBNKcmYZJG4m3Jg-riZULVkl7FAQdx0Ds/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvb25lLXBpZWNl/LWFuaW1lLTdqM2Rp/bGFsaWJzY3lmNHEu/anBn" alt="One Piece" style="height: 200px;">
+                    <h3> One Piece</h3>
+           
+                    <p>Join Luffy and his crew as they search for the ultimate treasure, the One Piece.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://www.slugmag.com/wp/wp-content/uploads/2017/04/screen-shot-2016-11-27-at-1-42-50-pm.png" alt="Your Name"style= "height: 200px">
+                    <h3>Your Name</h3>
+                    <p>A beautifully animated love story about two strangers connected by a mysterious force.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://imgs.search.brave.com/mNtDmVOddS2sykb5UD7g8TtbONoiG8cXfsdOjlhJhbY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvc3Bpcml0ZWQt/YXdheS1waWN0dXJl/cy1nbHVsa29odWQ0/azhidWJ0LmpwZw" alt="Spirited Away"style= "height: 200px">
+                    <h3>Spirited Away</h3>
+                    <p>A young girl finds herself trapped in a world of spirits and must find a way back home.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://imgs.search.brave.com/cjKeAquo31xn8ERfmwCyEKiTcXlGeVJ45D7z81nTZ2k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QllXTTNNREUz/WWpFdE16SXpaQzAw/T0RFNUxUZ3hOVEl0/Tm1VeU1UQmtNMk0y/Tm1OaVhrRXlYa0Zx/Y0djQC5qcGc" alt="My Neighbor Totoro"style= "height: 200px">
+                    <h3>My Neighbor Totoro</h3>
+                    <p>A heartwarming tale of two young girls and their adventures with magical creatures.</p>
+                </div>
+                <div class="anime-item">
+                  <img src="https://imgs.search.brave.com/-8bwKK4X_rGNr9E0eipOQDCpRSP0kzyazNYRAfxDyLU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZm0u/eWlkaW8uY29tL2lt/YWdlcy90di83Nzgv/YmFja2Ryb3AtMTI4/MHg3MjAuanBn" alt="Death Note"style= "height: 200px">
+                  <h3>Death Note</h3>
+                  <p>A high school student gains a notebook with the power to kill anyone whose name he writes in it.</p>
+              </div>
+              <div class="anime-item">
+                  <img src="https://cdn.antaranews.com/cache/1200x800/2024/10/18/jujutsu.jpg" alt="Jujutsu Kaisen"style= "height: 200px">
+                  <h3>Jujutsu Kaisen</h3>
+                  <p>A student joins a secret organization to fight cursed spirits after encountering a dangerous one.</p>
+              </div>
+              <div class="anime-item">
+                  <img src="https://imgs.search.brave.com/8nk5K7MZrVSzKBvL1NH2PETgE5BJYuulLVJqDc5cILI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMTA4/NDk5My5qcGc" alt="Fullmetal Alchemist"style= "height: 200px">
+                  <h3>Fullmetal Alchemist: Brotherhood</h3>
+                  <p>Two brothers use alchemy in their quest to restore their bodies after a failed alchemical experiment.</p>
+              </div>
+            <div class="anime-item">
+              <img src="https://imgs.search.brave.com/w3UOMkhRVAF9ol-drdVURp7E-nZ4VT4wHEOCb8VdU18/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMxLmNicmltYWdl/cy5jb20vd29yZHBy/ZXNzL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzEwL2hpZ2gt/c2Nob29sLWR4ZC5q/cGc"alt="high school dxd"style= "height: 200px">
+              <h3>high school dxd </h3>
+              <p>a high school student who is reincarnated as a demon after being killed by a fallen angel, and joins a club of powerful demons while navigating battles and romantic entanglements.</p>
+            </div>
+              <div class="anime-item">
+                  <img src="https://imgs.search.brave.com/bw9ssGvq-9Fss5zJcST9D9iaFFRMmeTUYXvqFvzcl7I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZW1v/bnNsYXllci1oaW5v/a2FtaS5zZWdhLmNv/bS9pbWcvcHVyY2hh/c2UvZGlnaXRhbC1z/dGFuZGFyZC5qcGc" alt="Demon Slayer"style= "height: 200px">
+                  <h3>Demon Slayer</h3>
+                  <p>A young boy becomes a demon slayer to avenge his family and cure his demon-turned sister.</p>
+              </div>
+              <div class="anime-item">
+                  <img src="https://imgs.search.brave.com/L3jKr2AucMna_BBkBtmOllO18UHEEN0neBdDGpNlqPQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDU0NjQ4/MDguanBn" alt="Tokyo Ghoul"style= "height: 200px">
+                  <h3>Tokyo Ghoul</h3>
+                  <p>A college student becomes a half-ghoul after a near-fatal encounter with a ghoul, leading to a dangerous new life.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <footer>
+      <div class="container">
+          <p>&copy; 2025 Anime World</p>
+          <a  href="first4.html" style="color: #f9faf9;">suggestion</a>
+      </div>
+  </footer>
+</body>
+</html>
